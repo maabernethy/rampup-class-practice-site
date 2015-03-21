@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	text-align: center;
+	border: 1px dotted red;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Arial;
+}
+header {
+	background: #56CAF0;
+	border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    border-color: #E0DFDE;
+    border-width: 10px;
+}
+header > h5 {
+	color: #F09B44;
+}
+
+footer {
+	background: red;
+}
+h1 {
+	font-size: 4em;
+	font-family: "HelveticaNeue-light", sans-serif;
+	color: white;
+}
+h5 {
+	font-family: Georgia;
+}
+nav {
+	background-color: #E0DFDE;
+}
+nav > ul > li {
+	text-decoration: none;
+	display: inline;
+	font-size: 200%;
+	padding: 20px;	
+}
+
+nav > ul > li > a:hover {
+	background: black;
+}
+
+li > a {
+	text-decoration: none;
+	font-family: Helvetica;
+	color: purple;
+}
+.kittens_pic {
+	border: 2px solid white;
+	border-radius: 100%;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.lists {
+	background-color: #E0DFDE;
+}
+
+.pic {
+	background-color: purple;
+}
+
+p {
+	text-align: left;
+}
+.kitten {
+	text-align: left;
+	line-height: 1.5em;
+	font-family: Georgia;
+}
+.paragraph {
+	margin-left: auto;
+    margin-right: auto;
+	width: 45ex;
+	display: inline-block;
+}
+.top_section {
+	background: #F09B44;
+}
+img {
+	margin-left: auto;
+    margin-right: auto;
+	display: block;
+}
+
+ol {
+	list-style-position:inside;
+}
+
+ul {
+	list-style-position:inside;
+}
+.paragraph > .kitten > span {
+	background: black;
+	color: white;
+}
